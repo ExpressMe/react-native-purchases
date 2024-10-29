@@ -21,7 +21,7 @@ internal class PaywallFooterViewManager : BasePaywallViewManager<PaywallFooterVi
             // https://github.com/facebook/react-native/issues/17968#issuecomment-1672111483
             override fun requestLayout() {
                 super.requestLayout()
-                post(measureAndLayout)
+                //post(measureAndLayout)
             }
 
             private val measureAndLayout = Runnable {
