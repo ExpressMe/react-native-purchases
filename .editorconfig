@@ -15,3 +15,5 @@ trim_trailing_whitespace = true
 insert_final_newline = true
 
 [{*.java,*.kt,*.h,*.m}]
+
+indent_size = 4
